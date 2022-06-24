@@ -32,6 +32,7 @@ const requestPIP = async () => {
         streamPIP = true;
         videoElement.addEventListener('leavepictureinpicture', () => {
             videoElement.hidden = false
+            streamPIP = false
         })
 
     } else {
