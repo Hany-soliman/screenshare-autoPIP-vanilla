@@ -7,13 +7,15 @@ html{
 body {
     margin: 0;
     height: 100vh;
-    display:flex;
-    justify-content: center;
-    align-items: center;
     background-color: rgba(37,37,37)
 }
 
 .button-container{
+    display: flex;
+    align-content: center;
+    margin: auto;
+    justify-content: center;
+    width: fit-content;
     border: 2px solid black;
     padding:10px;
     border-radius: 7px;
@@ -23,7 +25,6 @@ body {
 button{
   cursor:pointer;
     outline:none;
-    width: 120px;
     height: 75px;
     font-family: Barlow, sans-serif;
     font-size: 25px;
@@ -42,4 +43,12 @@ button:hover{
 button:active{
     transform: translateY(3px);
     box-shadow: 0 6px 6px 0 rgba(0,0,0,0.3);
+}
+
+.video-container{
+    height: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

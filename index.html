@@ -7,10 +7,14 @@
 </head>
 <body>
 <!--Video-->
-<video id="video" height="360" width="640" hidden></video>
+<div class="video-container">
+    <video id="screen-share" height="360" width="640" hidden></video>
+    <video id="webcam" height="360" width="640" hidden></video>
+</div>
 <!--Button-->
 <div class="button-container">
     <button id="media-button" title="Select a screen-share stream!">MEDIA</button>
+    <button id="webcam-button" title="Select a webcam stream!">WEBCAM</button>
     <button id="start-button" title="Start Picture in Picture!">START</button>
 </div>
 <!--script-->
